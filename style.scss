@@ -15,6 +15,31 @@
   --White-Yellow: #ffa84e;
 }
 
+.navbar {
+  &__button:hover {
+    border-radius: 6px;
+    border: 1px solid var(--Dark-Blue, #172339);
+    background: var(--Dark-Blue, #172339);
+    color: var(--White);
+    cursor: pointer;
+  }
+}
+
+.solution__btn {
+  border: none;
+}
+
+.solution__btn:hover {
+  border-radius: 6px;
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  color: var(--White);
+  cursor: pointer;
+}
+
+.footer__icons {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 375px) {
   .container {
     max-width: 383px;
@@ -57,7 +82,7 @@
         font-size: 38px;
         font-weight: 400;
         line-height: 44px; /* 115.789% */
-        letter-spacing: -0.528px; 
+        letter-spacing: -0.528px;
         span {
           color: var(--Dark-Blue, #172339);
           font-size: 38px;
